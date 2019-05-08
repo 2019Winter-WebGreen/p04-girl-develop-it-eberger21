@@ -1,0 +1,65 @@
+/*
+* Erin Berger
+* May 8, 2019 
+* Girl Develop It 
+*/
+
+/* The universal selector */
+
+* . {
+
+}
+
+/* Body attributes here */
+
+body {
+  /*this is the background color for the whole page and the fonts */ 
+	background-color: lightpink;
+	font-family: Arial, Helvetica, sans-serif; }
+
+/*this is for the size of the logo */
+#logo { 
+    width: 500px; 
+    height: 150px; 
+    }
+
+/*these are both for the size and positioning of the other two images */
+#laptopgirls { 
+    height: 250px;
+    width: 350px; 
+    float: right; }
+
+#boyfriendlaptop {
+    height: 250px;
+    width: 350px; 
+    float: right;
+}
+
+
+/*this is the background color for behind the logo in the header section */
+header {
+    background-color: rgb(240, 96, 106)
+}
+
+/* these are the fonts for the underlined titles */
+h1 {
+	font-family: "apple chancery" }
+	
+h2 {
+	font-family: "apple chancery" }
+
+
+/*these both control how the links look before and after they're visited and when they are hovered over */
+a:visited {
+	color: purple;
+	text-decoration: underline; }
+
+a:hover , a:focus {
+	color: magenta; 
+	font-size: 30px; } 
+	
+/*this is the font for the footer section*/
+footer {
+	font-family: "times new roman", times, serif; } 
+
+
